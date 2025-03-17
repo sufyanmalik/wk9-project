@@ -1,5 +1,5 @@
 import { auth } from "@clerk/nextjs";
-import { connect } from "@/utils/db";
+import { connect } from "@/utils/connect";
 
 export async function DELETE(req) {
   try {
